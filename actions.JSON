@@ -1,0 +1,47 @@
+{
+	"nom_du_bouton" : {
+		"text" : "description_action",
+		"conditions" : {
+			"health" : {
+				"min" : 0,
+				"max" : 100,
+			},
+			"alcohol" : {
+				"min" : 0,
+				"max" : 100,
+			},
+			"motivation" : {
+				"min" : 0,
+				"max" : 100,
+			},
+			"item" : "nom_item",
+			"event" : "nom_event_flag"
+		},
+		"effect" : {
+			"chHealth" : 0,
+			"chMotivation" : 0,
+			"chAlcohol" : 0,
+			"item" : {
+				"add" : [
+					"item_name",
+				],
+				"remove" : [
+					"item_name"
+				]
+			},
+			"weapon" : {
+				"add" : "weapon_name",
+				"remove" : "weapon_name"
+			},
+			"outfit" : {
+				"add" : "outfitName",
+				"remove" : "outfitName"
+			},
+			"eventFlag" : {
+				"add" : "eventFlag",
+				"remove" : "eventFlag"
+			},
+			"newEvent" : "eventName"
+		}
+	}
+}

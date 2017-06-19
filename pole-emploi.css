@@ -1,0 +1,37 @@
+body {
+	background-color: black;
+}
+
+.padding-left-right {
+	padding-right: 1%;
+	padding-left: 1%;
+}
+
+.status-indicator {
+	color: white;
+}
+
+.margin-lr-10 {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#status-panel {
+	border-radius: 10px;
+	background-color: #595959;
+}
+
+#inventory-panel {
+	border-radius: 10px;
+	background-color: #595959;
+	height: 100px;
+}
+
+#game-panel {
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+	border-radius: 10px;
+	background-color: #737373;
+}

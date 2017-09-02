@@ -33,10 +33,6 @@
 				"add" : "weapon_name",
 				"remove" : "weapon_name"
 			},
-			"outfit" : {
-				"add" : "outfitName",
-				"remove" : "outfitName"
-			},
 			"eventFlag" : {
 				"add" : "eventFlag",
 				"remove" : "eventFlag"
@@ -45,3 +41,40 @@
 		}
 	}
 }
+
+"enter_pe" : {
+		"conditions" : {
+			"event" : "no_late"
+		},
+		"effect" : {
+			"newEvent" : "enter_pe",
+		}
+	},
+	"enter_pe_late" : {
+		"conditions" : {
+			"event" : "late"
+		},
+		"effect" : {
+			"newEvent" : "enter_pe_late",
+		}
+	},
+	"go_home" : {
+		"conditions" : null,
+		"effect" : {
+			"newEvent" : "go_home",
+		}
+	},
+	"resist_pe" : {
+		"conditions" : null,
+		"effect" : {
+			"newEvent" : "resist_pe",
+		}
+	},
+	"resist_pe_club" : {
+		"conditions" : {
+			"item" : "Batte",
+		},
+		"effect" : {
+			"newEvent" : "resist_pe_club",
+		}
+	},

@@ -2325,7 +2325,7 @@ function displayActions(eventName) {
 		var conditions = actions[event.actions[i].name].conditions;
 		if (checkConditions(conditions) === true) {
 			buttons += '<button type="button" class="btn btn-primary action-btn" id="' + event.actions[i].name + '">' + event.actions[i].text + "</button>";
-			buttons += '<div class="action-btn" id="' + event.actions[i].name + '">' + event.actions[i].text + "</div>";
+			//buttons += '<div class="action-btn" id="' + event.actions[i].name + '">' + event.actions[i].text + "</div>";
 		}
 	}
 
